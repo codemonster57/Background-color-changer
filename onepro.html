@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background color changer</title>
+  <style>
+    .button{
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      border: gray;
+      border-radius: 2px;
+      text-align: right;
+      cursor: pointer;
+    }
+    #green{
+      background-color: green;
+    }
+    #red{
+      background-color: red;
+    }
+    #blue{
+      background-color: blue;
+    }
+    #yellow{
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <!--<div>
+    <span class="button " id="green" onclick="call(	'#00ff00')"></span>
+    <span  class="button " id="red" onclick="call(	'#ff0000')"></span>
+    <span  class="button " id="blue" onclick="call('#0000ff')"></span>
+    <span  class="button " id="yellow" onclick="call('#ffd22b')"></span>
+  </div> 
+  <script>
+    function call(color){
+      document.body.style.backgroundColor=color;
+    }
+  </script>
+
+  inline CSS is used and javascript
+-->
+
+
+<!-- background color changer by using javascript-->
+<div class="color-selector">
+
+<span class="button" id="green"></span>
+<span class="button" id="red"></span>
+<span class="button" id="yellow"></span>
+<span class="button" id="blue"></span>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
